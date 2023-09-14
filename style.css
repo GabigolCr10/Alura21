@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: #e6e0e0;
+    color: rgb(#000);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+} 
+.cabecalho-imagem{
+    width: 20%;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 20px;
+}   
+.escola-imagem{
+    width: 20%;
+    
+}
+.escola{
+    background-color: #e6e0e0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+ width: 35%;
+
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+
+    width: 120px;
+
+}
+
+.icone-instagram{
+    width: 24px;
+}
+
+.instagram-div{
+    text-align: center;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
